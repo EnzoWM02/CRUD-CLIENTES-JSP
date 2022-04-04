@@ -1,0 +1,3 @@
+CREATE DATABASE jspbase;
+CREATE TABLE cliente (id SERIAL PRIMARY KEY, nome VARCHAR(200), email VARCHAR(100), pais VARCHAR(80), situacao VARCHAR(7));
+
